@@ -1,0 +1,50 @@
+{
+  "Actions": [
+    {
+      "PropertyInspectorPath": "propertyinspector/index.html",
+      "Icon": "action/images/actionimage",
+      "Name": "Example Action",
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ],
+      "Tooltip": "This is an example tooltip",
+      "UUID": "com.elgato.template.action"
+    },
+    {
+      "PropertyInspectorPath": "propertyinspector/status.html",
+      "Icon": "action/images/actionimage",
+      "Name": "Status",
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ],
+      "Tooltip": "This is an example tooltip",
+      "UUID": "com.elgato.template.status"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Burstrom Consulting AB",
+  "CodePath": "index.html",
+  "Category": "Apptagen",
+  "Description": "Elgato Stream Deck status and login plugin for the Apptagen web service",
+  "Name": "com.elgato.template",
+  "Icon": "action/images/action",
+  "URL": "",
+  "Version": "1.0.1",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
