@@ -25,6 +25,12 @@ Features:
 ## Using the DistributionTool:
 So after making changes to the code, such as changing the name, image or anything else of the stream deck plugin. You'll need to make a new file to install the plugin with. This is done through the DistributionTool.exe which is included with the project.
 
-To create a new plugin run the following command from "LOCATION\StreamDeck Plugin\streamdeck-plugintemplate>" in your Command line:
+To create a new plugin run the following command from
+
+"LOCATION\StreamDeck Plugin\streamdeck-plugintemplate>"
+
+in your Command line:
+
 ".\DistributionTool.exe -b -i .\Sources\com.elgato.template.sdPlugin\ -o Release"
+
 And it will generate a new plugin for you, assuming there isnt one in the sources folder. 
